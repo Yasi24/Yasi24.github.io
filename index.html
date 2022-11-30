@@ -1,8 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <h1>Hello</h1>
-        <h3>My name Ahmad Yasi Faizi my ID: 6238001</h3>
-        <img src="Guy.jpeg">
-    </body>
+    <head>
+        <style>
+        .profile {
+            background-color: #545463;
+            padding-top: 4vh;
+            padding-bottom: 4vh;
+            text-align: center;
+            
+        }
+    </style>
+    </head>
+    <body style="background-color: aqua;">
+        
+    <table border="1" style="width: 100%;">
+        <td style="width: 50%;">
+        <div class="profile" >
+                <img src="Guy.jpeg" style="width: 130px; border-radius: 50%;">
+                <h1>Ahmad Yasi Faizi</h1>
+                <p>
+                    <h3>Web developer</h3>
+                    <h3>ID number 6238001</h3>
+                </p>
+                
+            </div>
+        </td>
+        <td style="background-color: white;">
+        <div style="padding-left: 10px;">
+            <h1>Occupation:</h1>
+            <p style="padding-left: 20px;">Student and WD</p>
+            <h1>Degree:</h1>
+            <p style="padding-left: 20px;">
+                Computer Science <br><br>
+                Business
+            </p>
+        </td>
+        <button onclick="changeName()">Change Name</button>
+    </table>
+    <script>
+        
+
+        function changeName() {
+            var span = document.getElementsById("thou name")
+            span.innerHTML = "Agent 47"
+        }
+    </script>
+    
+</body>
+    
 </html>
