@@ -88,15 +88,10 @@ function loadData() {
 
 
         row.appendChild(productName)
-
         row.appendChild(quantity)
-
         row.appendChild(ppu)
-
         row.appendChild(total)
-
         productList.appendChild(row)
-
     }
 
 
