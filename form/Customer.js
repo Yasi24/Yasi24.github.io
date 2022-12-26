@@ -60,7 +60,7 @@ function addCustomer() {
     console.log(customers)
 
     let newData =  `<tr>
-    <td><img style="width: 1.5em;" src='sign-delete-icon.png' onclick='deleteCustomer("${(customers.length)-1}")'>${newCustomer.name}</td>
+    <td><img style="width: 1.5em;" src='delete.png' onclick='deleteCustomer("${(customers.length)-1}")'>${newCustomer.name}</td>
     <td>${newCustomer.email}</td>
     <td>${newCustomer.phone}</td>
     </tr>`
