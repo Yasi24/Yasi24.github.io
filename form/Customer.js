@@ -67,3 +67,4 @@ function addCustomer() {
 
     $("#data-table tr:last").after(newData)
 }
+
